@@ -1,0 +1,21 @@
+{
+  "name": "vue-and-lit-demo",
+  "description": "A sandbox project for exploring interop between Vue and LitElement.",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "lit-element": "^2.4.0",
+    "sass": "^1.32.8",
+    "vite": "^2.1.2",
+    "vue": "^3.0.7"
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue + Lit Example</title>
+    <style type="text/css">
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+
+      :root {
+        --color-1: #333;
+        --color-2: #fff;
+        --color-3: #aa0;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--color-1);
+        font-size: 125%;
+        font-family: sans-serif;
+        font-weight: 200;
+        color: var(--color-2);
+      }
+
+      p {
+        margin: 0 0 1rem 0;
+      }
+      p:last-of-type {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <demo-section> -->
+      <demo-panel slot="content">
+        <div slot="panel-content">
+          <p>
+            This demo illustrates how to use custom elements within a Vue
+            application.
+          </p>
+          <p>
+            See the project's repository for more information.  Feel free to
+            download, run and play around with it.
+          </p>
+        </div>
+      </demo-panel>
+      <!-- </demo-section> -->
+    <div id="vue-app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
